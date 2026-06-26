@@ -1,0 +1,6 @@
+label,raw_ece,validation_fitted_ece,reduction,reporting_implication
+dr_label,0.165,0.012,-0.153,Do not report raw probabilities without validation-fitted calibration
+optic_disc,0.304,0.022,-0.282,Raw probabilities are not suitable for direct reporting
+macula,0.313,0.018,-0.295,Raw probabilities are not suitable for direct reporting
+quality_label,0.045,0.023,-0.022,"Smaller raw error, still improved by calibration"
+macro,0.207,0.019,-0.188,Single calibration value used for reporting

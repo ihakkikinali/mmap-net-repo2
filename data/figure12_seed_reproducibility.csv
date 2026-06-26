@@ -1,0 +1,5 @@
+seed,macro_auroc,protocol,note
+42,0.9289,P2_T1,
+123,0.9262,P2_T1,
+777,0.9308,P2_T1,
+mean,0.9286,P2_T1,std_0.0019

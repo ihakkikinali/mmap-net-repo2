@@ -1,0 +1,7 @@
+model,modality,missingness_strategy,gate,macro_auroc,dr_auroc,dr_ci,macro_f1,ece_postcal,p_vs_full
+image_only,image,none,none,0.9170,0.9286,0.9049-0.9509,0.8007,0.015,0.042
+meta_only,metadata,none,none,0.6655,0.7656,0.7273-0.7996,0.5477,0.010,<0.001
+early_fusion,both,concat,none,0.9230,0.9554,0.9343-0.9744,0.8241,0.011,0.512
+mmap_no_missingness,both,mask_only,learnable,0.9276,0.9381,0.9135-0.9591,0.8200,0.014,0.254
+mmap_no_gate,both,mask+indicator,fixed_0.5,0.8956,0.9552,0.9346-0.9743,0.7801,0.013,<0.001
+mmap_full,both,mask+indicator,learnable,0.9289,0.9604,0.9487-0.9710,0.8089,0.010,reference

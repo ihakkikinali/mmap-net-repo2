@@ -1,0 +1,6 @@
+T,macro_auroc,dr_auroc,latency_ms,fps,recommendation
+1,0.9289,0.9604,29,34.5,ablation_realtime_screening
+5,0.9441,0.9712,88,11.4,balanced
+10,0.9583,0.9831,165,6.1,near_canonical
+20,0.9673,0.9982,535,1.9,canonical_selected
+50,0.9681,0.9984,1280,0.8,marginal_gain_not_recommended

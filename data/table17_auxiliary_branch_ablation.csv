@@ -1,0 +1,4 @@
+configuration,auxiliary_branch,macro_auroc,dr_label,optic_disc,macula,quality_label
+auxiliary_branch_present,present,0.9307,0.9683,0.9216,0.9208,0.9119
+auxiliary_branch_removed,absent,0.9299,0.9514,0.9318,0.9293,0.907
+difference_present_minus_removed,,0.0008,0.0169,-0.0101,-0.0085,0.0049

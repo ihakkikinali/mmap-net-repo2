@@ -1,0 +1,7 @@
+lambda3,auxiliary_branch_role,macro_auroc_p2,dr_auroc,macro_f1,note
+0.0,absent,0.9299,0.9514,,matched_retraining_see_auxiliary_branch_ablation
+0.1,minimal,0.9141,0.9413,0.8201,under_regularized
+0.2,light,0.9187,0.9468,0.8249,near_optimal
+0.3,balanced,0.9289,0.9604,0.8089,selected_best_val
+0.5,heavy,0.9178,0.9455,0.8231,slight_suppression
+1.0,dominant,0.9102,0.9389,0.8177,performance_drops

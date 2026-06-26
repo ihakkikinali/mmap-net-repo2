@@ -1,0 +1,25 @@
+MMAP-Net revised repository audit summary
+========================================
+
+Updated to match the revised manuscript title:
+MMAP-Net: Missing-Aware Multimodal Fusion for Multi-Label Retinal Disease Classification with Score-Calibrated Deferral
+
+Main updates:
+- Standardized repository documentation around score-calibrated deferral.
+- Standardized external analysis wording as a single external-device shift check.
+- Updated Table 5 to validation-fitted calibration values.
+- Renamed data files to remove obsolete terminology.
+- Updated Table 9 and Table 13 values to match final manuscript rounding/arithmetic.
+- Replaced old deferral figure file with fig_deferral_external_device.
+- Updated generate_figures.py and verify_consistency.py.
+
+Checks performed:
+- scripts/verify_consistency.py: PASS.
+- scripts/generate_figures.py: completed and regenerated quantitative figures.
+- No exact-match occurrences found for obsolete terms: SCA, abstention, OOD, Head-C, Head C, head_c, cross-fitted, external validation.
+- No exact-match occurrences found for personal identifiers searched: author name variants, GitHub username, email domain, institution/city terms, GitHub token patterns.
+
+Scope:
+- Raw BRSET/mBRSET images are not redistributed.
+- Training notebooks and weights are placeholders at review stage.
+- Released artifacts support table/figure verification and regeneration for non-image-dependent quantitative analyses.

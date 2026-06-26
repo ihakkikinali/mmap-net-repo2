@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.pem
+*token*
+*.ckpt
+*.pt
+*.pth
+*.onnx
+.ipynb_checkpoints/

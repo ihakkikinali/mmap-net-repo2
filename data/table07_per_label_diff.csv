@@ -1,0 +1,9 @@
+comparison,label,auroc_full,auroc_baseline,auroc_diff,ci_95,significant
+vs_image_only,dr_label,0.9604,0.9285,0.0319,0.0105-0.0524,yes
+vs_image_only,optic_disc,0.9222,0.9159,0.0063,-0.0051-0.0177,no
+vs_image_only,macula,0.9201,0.9010,0.0191,0.0082-0.0299,yes
+vs_image_only,quality_label,0.9127,0.9225,-0.0098,-0.0201-0.0012,no
+vs_no_gate,dr_label,0.9604,0.9549,0.0055,-0.0112-0.0225,no
+vs_no_gate,optic_disc,0.9222,0.8391,0.0831,0.0679-0.0978,yes
+vs_no_gate,macula,0.9201,0.9101,0.0100,-0.0002-0.0199,no
+vs_no_gate,quality_label,0.9127,0.8781,0.0346,0.0178-0.0512,yes

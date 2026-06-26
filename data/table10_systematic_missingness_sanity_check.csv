@@ -1,0 +1,5 @@
+model,full_mauroc,auroc_at_label_coupled_missingness,auroc_at_clean,auroc_drop,analysis_subset
+image_only,0.917,0.9098,0.9189,-0.009,DR_negative_subset_n2424
+early_fusion,0.923,0.9122,0.9177,-0.0055,DR_negative_subset_n2424
+mmap_no_missingness,0.9276,0.9145,0.9194,-0.0049,DR_negative_subset_n2424
+mmap_full,0.9289,0.9101,0.9189,-0.0088,DR_negative_subset_n2424_label_coupled_missingness

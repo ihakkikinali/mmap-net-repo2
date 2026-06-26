@@ -1,0 +1,6 @@
+label,auroc,auroc_ci_low,auroc_ci_high,auprc,macro_f1,ece_val_fitted,brier,prevalence_pct,protocol
+dr_label,0.9982,0.9969,0.9992,0.9810,0.9713,0.012,0.038,7.2,P1_T20
+optic_disc,0.9518,0.9420,0.9602,0.8693,0.8599,0.022,0.170,20.0,P1_T20
+macula,0.9550,0.9470,0.9631,0.9220,0.8991,0.018,0.187,28.6,P1_T20
+quality_label,0.9641,0.9535,0.9729,0.9942,0.8585,0.023,0.054,88.4,P1_T20
+macro_average,0.9673,,,0.9416,0.8972,0.019,0.112,,P1_T20
