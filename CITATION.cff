@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated article and this software record."
+title: "MMAP-Net: Missing-Aware Multimodal Fusion for Multi-Label Retinal Disease Classification with Score-Calibrated Deferral"
+version: 1.0.0
+type: software
+license: MIT
+date-released: 2026-07-16
+
+abstract: >
+  Official reproducibility materials for MMAP-Net, including released
+  prediction outputs, patient-level split summaries, calibration and
+  deferral artifacts, manuscript result tables, figures, and scripts
+  for consistency verification and figure regeneration.
+
+authors:
+  - family-names: "Kınalıoğlu"
+    given-names: "İsmail Hakkı"
+    affiliation: "Selçuk University"
+    orcid: "https://orcid.org/ORCID-NUMARANIZ"
+
+keywords:
+  - multimodal learning
+  - retinal disease classification
+  - missing modalities
+  - uncertainty estimation
+  - calibration
+  - selective prediction
+  - deep learning
+
+repository-code: "https://github.com/ihakkikinali/mmap-net-repo2"
